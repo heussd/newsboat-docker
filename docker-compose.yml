@@ -1,0 +1,7 @@
+services:
+  newsboat:
+    image: "heussd/newsboat:latest"
+    build: .
+
+    ## Use this to print important newsboat locations
+    command: "--help"
